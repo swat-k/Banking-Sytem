@@ -5,3 +5,8 @@ runtime: php81
 # run a long-running PHP script as a worker process (e.g. "php worker.php").
 #
 # entrypoint: serve index.php
+
+env_variables:
+  GOOGLE_APPLICATION_CREDENTIALS: meta-domain-373306-7a17ee56f877.json
+  GOOGLE_CLOUD_PROJECT: My First Project 	
+  
